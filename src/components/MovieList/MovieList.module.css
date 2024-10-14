@@ -1,0 +1,21 @@
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  align-items: flex-start;
+  background-color: rgba(202, 202, 202, 0.3);
+  max-height: fit-content;
+  max-width: fit-content;
+  border-radius: 16px;
+  padding: 10px;
+}
+.movie {
+  font-size: 18px;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.link:hover,
+.link:focus {
+  color: #0a0a0a;
+}

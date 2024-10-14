@@ -1,0 +1,22 @@
+.form {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  z-index: 1000;
+  position: relative;
+}
+.input {
+  width: 200px;
+  height: 30px;
+  border-radius: 8px;
+}
+.button {
+  background-color: #f3f3f3;
+  color: black;
+  height: 36px;
+  font-size: 14px;
+}
+.button:hover,
+.button:focus {
+  background-color: #a3a3a3;
+}
